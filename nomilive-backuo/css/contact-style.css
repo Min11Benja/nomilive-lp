@@ -1,0 +1,141 @@
+*::-webkit-input-placeholder {
+   background: rgba(0, 0, 0, 0);
+   
+}
+
+*:-moz-placeholder {
+   background: rgba(0, 0, 0, 0);
+}
+
+*::-moz-placeholder {
+   background: rgba(0, 0, 0, 0);
+}
+
+*:-ms-input-placeholder {
+  background: rgba(0, 0, 0, 0);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  max-width: 460px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 50px;
+  overflow: hidden;
+}
+.wrapper .title {
+  display: block;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 34px;
+  text-align: center;
+  height: 40px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+.wrapper .name {
+  margin: 10px 0 0;
+  position: relative;
+  width: 100%;
+}
+.wrapper form {
+ 
+  width: 100%;
+  min-width: 330px;
+  padding: 20px 25px;
+  border-radius: 4px;
+}
+.wrapper form input, .wrapper form textarea {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0);
+  font-size: 17px;
+  font-weight: lighter;
+  outline: 0;
+  transition: border-color 0.3s ease-in-out;
+  color: #ffffff;
+}
+.wrapper form input:focus, .wrapper form textarea:focus {
+  transition: border-color 0.3s ease-in-out;
+  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
+}
+.wrapper form textarea {
+  resize: none;
+  height: 120px;
+}
+.wrapper form button {
+  display: block;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #4D4D4D;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #4D4D4D;
+  padding: 10px 0;
+  outline: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 auto;
+  transition: all 0.25s;
+  width: 300px;
+}
+.wrapper form button:hover {
+  color: white;
+  background: #4D4D4D;
+  transition: all 0.25s;
+}
+.wrapper form button:active {
+  color: #1a1a1a;
+  transition: all 0.25s;
+}
+.wrapper form button:after {
+  content: "ENVIAR";
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 651px) {
+  .wrapper {
+    width: 650px;
+    max-width: none;
+  }
+  .wrapper .title {
+    text-align: left;
+  }
+  .wrapper input:first-child {
+    float: left;
+    width: 290px;
+  }
+  .wrapper input:nth-child(2) {
+    float: right;
+    width: 290px;
+  }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}

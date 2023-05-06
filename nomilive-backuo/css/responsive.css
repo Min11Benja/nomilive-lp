@@ -1,0 +1,268 @@
+
+@media (min-width: 992px) {
+  .navbar.navbar-sticky.navbar-transparent-light.bg-white {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent !important; }
+    
+    .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-brand > img {
+      position: absolute;
+      top: 10px; }
+      .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-brand > img.logo-scroll {
+        opacity: 0; }
+    .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, 0.83); }
+      .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-nav .nav-link:hover, .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-nav .nav-link.active, .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-nav .nav-link:active, .navbar.navbar-sticky.navbar-transparent-light.bg-white .navbar-nav .nav-link:focus {
+        color: #fff; }
+  .navbar-expand-lg.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999; }
+    .navbar-expand-lg.navbar .navbar-nav .nav-item {
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      .navbar-expand-lg.navbar .navbar-nav .nav-item:last-child {
+        padding-left: 0px;
+        padding-right: 0px; }
+    .navbar-expand-lg.navbar .navbar-nav .nav-link {
+      padding-top: 1.3rem;
+      padding-bottom: 1.3rem;
+      padding-left: 0;
+      padding-right: 0; }
+  .navbar-nav .nav-item .nav-link.btn {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border: 0px !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 13px;
+    margin-left: 1rem; }
+  .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    animation: fadeInDown .4s;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 0.98) !important; }
+    .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-brand > img.logo-scroll {
+      opacity: 1; }
+    .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-brand > img.logo-trans {
+      opacity: 0; }
+    .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-nav .nav-link {
+      color: rgba(0, 0, 0, 0.73); }
+      .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-nav .nav-link:hover, .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-nav .nav-link.active, .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-nav .nav-link:active, .navbar.navbar-transparent-light.bg-white.navbar-sticky.fixed-top .navbar-nav .nav-link:focus {
+        color: #1ecfca; } }
+
+@media (min-width: 992px) {
+  .dropdown-menu, .dropdown-submenu .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -moz-transform: translateY(8px);
+    -o-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+  .show > .dropdown-menu, .dropdown-submenu:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none; } }
+
+@media (min-width: 992px) {
+  .feature-img-section {
+    position: relative; }
+  .feature-img {
+    position: absolute;
+    max-width: 600px; }
+    .feature-img.pos-left {
+      left: 0; }
+    .feature-img.pos-right {
+      right: 0; } }
+
+
+@media (max-width: 991px) {
+  .hero-gradient-dark {
+    padding-bottom: 0rem;
+    padding-top: 4rem; }
+  .navbar-toggler {
+    position: absolute;
+    right: 15px;
+    background-image: none;
+    border: 0px;
+    padding: 0px;
+    top: 0; }
+    .navbar-toggler .navbar-toggler-icon {
+      background-image: none; }
+      .navbar-toggler .navbar-toggler-icon:after {
+        font-family: 'Linearicons';
+        content: "\e92b";
+        position: absolute;
+        right: 0;
+        font-size: 2em;
+        top: 3px;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        color: #000;
+        cursor: pointer; }
+  .navbar .navbar-nav .nav-link {
+    border-top: 0px; }
+  .navbar.navbar-expand-lg .nav-link.btn {
+    display: none; }
+  .navbar.navbar-expand-lg .navbar-collapse.show {
+    height: 250px;
+    overflow-y: scroll; }
+  .dropdown-menu {
+    box-shadow: none; }
+  .feature-img-section {
+    text-align: center; }
+  .feature-list li {
+    padding-left: 21px;
+    margin-left: 20px;
+    display: inline-block; }
+  .feature-img {
+    position: static;
+    margin-bottom: 30px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    display: block; } 
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  
+   
+  
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   .logo-trans{
+   visibility: hidden;
+        
+    }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 640px;
+}
+   .logo-trans{
+   visibility: hidden;
+        
+    }
+  
+}
+@media (max-width: 680px) {
+    
+    #contact{
+        padding-bottom: 200px !important;
+    }
+   
+  .container {
+    max-width: 600px;
+}
+    
+@media (max-width: 620px) {
+   
+  .container {
+    max-width: 530px;
+}    
+  
+    @media (max-width: 580px) {
+   
+  .container {
+    max-width: 470px;
+}  
+}
+        @media (max-width: 520px) {
+             #contact{
+        padding-bottom: 240px !important;
+    }
+   
+  .container {
+    max-width: 410px;
+}  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+    
+    .wrapper form {
+   
+    min-width: 300px;
+    
+}
+    
+     .container {
+    max-width: 390px;
+} 
+  .logo-trans{
+   visibility: hidden;
+        
+    }
+  
+}
+    
+    @media (max-width: 376px) {
+     .container {
+    max-width: 340px;
+} 
+  .logo-trans{
+   visibility: hidden;
+        
+    }
+  
+}
+
+    @media (max-width: 320px) {
+     .container {
+    max-width: 300px;
+} 
+  .logo-trans{
+   visibility: hidden;
+        
+    }
+  
+}
